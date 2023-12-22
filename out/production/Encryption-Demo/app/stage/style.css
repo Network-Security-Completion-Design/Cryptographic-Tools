@@ -1,0 +1,68 @@
+#root {
+    -fx-border-width:2;-fx-border-color:#000;
+}
+
+#top {
+    -fx-background-color: #4A5459;
+}
+
+#winClose {
+    -fx-cursor:hand;
+}
+
+
+/* 设置整个应用程序的背景颜色 */
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+/* 自定义TabPane的外观 */
+.tab-pane {
+    -fx-tab-min-height: 40px;
+    -fx-tab-max-height: 40px;
+    -fx-tab-max-width: 150px;
+    -fx-background-color: #ffffff;
+}
+
+/* 自定义Tab的外观 */
+.tab {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* 自定义选中的Tab的外观 */
+.tab:selected {
+    -fx-background-color: #f0f0f0;
+}
+
+/* 自定义TextArea的外观 */
+.text-area {
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #333333;
+}
+
+/* 自定义Button的外观 */
+.button {
+    -fx-font-size: 16px;
+    -fx-pref-height: 35px;
+    -fx-pref-width: 80px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #1d00ff;
+}
+
+/* 自定义Text的外观 */
+.text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+/* 自定义TextFill的外观 */
+.text-fill-red {
+    -fx-fill: red;
+}
+
+/* 自定义SplitPane的外观 */
+.split-pane {
+    -fx-divider-position: 0.5;
+}
